@@ -1,12 +1,16 @@
-import Banner from "./components/Banner/Banner"
+
 import Navbar from "./components/Navbar/Navbar"
+import Banner from "./components/Banner/Banner"
+import AboutUs from "./components/AboutUs/AboutUs"
+
 
 function App() {
 
   return (
     <>
-    <Navbar></Navbar>
-    <Banner></Banner>
+    <Navbar/>
+    <Banner/>
+    <AboutUs/>
     </>
   )
 }
