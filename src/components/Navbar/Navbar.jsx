@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png'
 import Container from '../Layout/Container'
 const Navbar = () => {
   return (
-    <div className='bg-secondary py-10'>
+    <div className='absolute top-0 left-0 w-full py-10'>
       <Container>
                 <div className='flex justify-between items-center'>
         <div>
