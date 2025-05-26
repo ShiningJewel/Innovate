@@ -35,7 +35,7 @@ const Platform = () => {
 
         {
           platformData.map((item)=>(
-            <div className='w-[300px] flex flex-col text-center pt-[116px] pb-[160px]'>
+            <div className='w-[300px] flex flex-col text-center pt-[116px]'>
               <img className='w-[110px] m-auto' src={item.img} alt="#platformicon1" />
               <h3  className='w-[300px] font-secondary font-bold text-2xl text-titleColor leading-9 pt-[26px] pb-3'>{item.title}</h3>
             <p className='w-[300px] font-primary text-paraColor font-regular text-lg leading-[32px]'>{item.description} </p>
