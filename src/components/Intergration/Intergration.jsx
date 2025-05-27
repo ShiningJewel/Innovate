@@ -13,7 +13,7 @@ const Intergration = () => {
   return (
     <section className='pt-[55px]  bg-[#F4FAFA]'>
       <Container>
-        <div className='pt-[124px] pb-[120px] '>
+        <div className='pt-[124px] '>
          <div className='flex justify-between'>
            <div>
             <h4 className='font-primary font-medium text-xl text-[#FF7364]'>Integrations</h4>

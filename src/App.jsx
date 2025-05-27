@@ -4,6 +4,7 @@ import Features from "./components/Features/Features"
 import Intergration from "./components/Intergration/Intergration"
 import Container from "./components/Layout/Container"
 import Navbar from "./components/Navbar/Navbar"
+import OurServices from "./components/OurServices/OurServices"
 import Platform from "./components/Platform/Platform"
 
 
@@ -16,6 +17,7 @@ function App() {
     <Platform/>
     <Features/>
     <Intergration/>
+    <OurServices/>
     <FactsSection/>
     </>
   )

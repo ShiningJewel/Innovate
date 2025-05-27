@@ -6,7 +6,7 @@ import featuresicon2 from '../../assets/featuresicon2.png'
 import featuresicon3 from '../../assets/featuresicon3.png'
 const Features = () => {
     return (
-        <div className='pt-[160px] pb-[55px]'>
+        <div className='pt-[160px]'>
             <Container>
                 <div className='flex justify-between'>
                     <div>
