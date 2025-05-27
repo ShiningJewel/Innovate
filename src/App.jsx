@@ -1,4 +1,5 @@
 import Banner from "./components/Banner/Banner"
+import FactsSection from "./components/FactsSection/FactsSection"
 import Features from "./components/Features/Features"
 import Intergration from "./components/Intergration/Intergration"
 import Container from "./components/Layout/Container"
@@ -15,6 +16,7 @@ function App() {
     <Platform/>
     <Features/>
     <Intergration/>
+    <FactsSection/>
     </>
   )
 }
