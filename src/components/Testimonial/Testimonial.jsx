@@ -9,9 +9,9 @@ import frame6 from '../../assets/frame6.png'
 import frame7 from '../../assets/frame7.png'
 import frame8 from '../../assets/frame8.png'
 
-const Intergration = () => {
+const Testimonial = () => {
   return (
-    <section className='pt-[55px]  bg-[#F4FAFA]'>
+    <section className='pt-[55px] pb-[300px]  bg-[#F4FAFA]'>
       <Container>
         <div className='pt-[124px] '>
          <div className='flex justify-between'>
@@ -21,7 +21,7 @@ const Intergration = () => {
             <p  className='w-[533px] font-primary text-paraColor font-regular text-lg leading-[32px]'>App integration, in a general sense, is the process of bringing resources or capabilities from one application to another. As the world of apps continues to evolve, app integration is becoming expected in many contexts.</p>
               <button className=' bg-secondary py-[20px] px-12 font-priamry font-medium text-lg rounded-[6px] text-white mt-10'>Get Started</button>
           </div>
-          <div className='w-[752px] h-[544px] shadow-[0_0_0_rgba(0,0,0,0.25)]'>
+          <div className='w-[752px] h-[544px] shadow-[px_4px_4px_rgba(0,0,0,0.25)]'>
             <div  className='flex justify-between'>
               <div className='flex justify-center items-center w-[332px] h-[143px] shadow-[0px_0px_0px_rgba(0,0,0,0.25)] bg-white'>
                 <img className=' w-[202px] m-auto' src={frame1} alt="#frame1" />
@@ -60,4 +60,4 @@ const Intergration = () => {
   )
 }
 
-export default Intergration
+export default Testimonial
