@@ -1,21 +1,30 @@
 import React from 'react'
 import Container from '../Layout/Container'
 import testimonial from '../../assets/testimonial.png'
-import logo from '../../assets/logo.png'
+import footerlogo from '../../assets/footerlogo.png'
 import { FaGoogle } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaPaperPlane } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <section className='pt-[309px] pb-[0] bg-red-300 shadow-[0_0_0_rgba(0,0,0,0.25)]'>
+    <section className='mt-[309px] pb-[0] shadow-[0_0_0_rgba(0,0,0,0.25)]'>
                 
       <Container>
-      <div className='relative top-[-471px] bg-cover bg-center w-full h-[316px] flex items-start justify-center text-white' style={{ backgroundImage: `url(${testimonial})` }}>
+      <div className='relative top-[-149px] bg-cover bg-center w-full h-[316px] flex items-start justify-center text-white' style={{ backgroundImage: `url(${testimonial})` }}>
+        <div className='absolute top-0 left-0'>
+          <div className='flex my-[100px] justify-center items-center'>
+            <h3 className='w-[577px] ml-[102px] font-secondary font-bold text-[46px] leading-[58px]'>Don’t find the answer? contact us for any query.</h3>
+         <div className='ml-[437px]'>
+           <a className=' bg-primary py-[17px] px-12 font-priamry font-medium text-lg rounded-[6px] text-secondary'>Contact Us</a>
+         </div>
+          </div>
+        </div>
       </div>
       <div className='flex justify-between items-center'>
         <div>
-         <img  className='w-[111px]' src={logo} alt="#logo" />
+         <img  className='w-[111px]' src={footerlogo} alt="#logo" />
           <p className='w-[263px] font-primary font-regular text-[16px] leading-[28px] mt-[26px] mb-[24px]'>Build a modern and creative website with Innovate.</p>
           <div className='flex gap-x-[6px] '>
             <div className='flex justify-center items-center w-[42px] h-[42px] rounded-full bg-white'>
@@ -57,8 +66,16 @@ const Footer = () => {
           </div>
         </div>
         <div>
-        <h5 className='font-primary font-medium text-lg leading-8 text-titleColor '>Get Latest Updates</h5>
+       <div>
+         <h5 className='font-primary font-medium text-lg leading-8 text-titleColor '>Get Latest Updates</h5>
         <p className='font-primary font-regular text-[16px] leading-[26px] text-paraColor mt-5 mb-8'>Subscribe to our newsletter and get many interesting things every week</p>
+       </div>
+        <div className='relative'>
+          <input type="text" className='w-[480px] border outline-0 bg-white rounded-[6px] placeholder:text-[#B4B6C4] font-secondary font-regular text-base leading-[26px] pl-6 py-5' placeholder='Your Email Address' />
+          <a className='absolute top-[19px] right-[60px] bg-secondary py-[6px] px-[10px] font-priamry font-medium text-lg rounded-[6px] text-[#FFFFFF]'>
+            <FaPaperPlane />
+          </a>
+        </div>
          </div>
       </div>
       <div>
