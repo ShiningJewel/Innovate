@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaPaperPlane } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <section className='mt-[309px] pb-[0] shadow-[0_0_0_rgba(0,0,0,0.25)]'>
+    <section className='mt-[309px] bg-[#F7F7FC] pb-[0] shadow-[0_0_0_rgba(0,0,0,0.25)]'>
                 
       <Container>
       <div className='relative top-[-149px] bg-cover bg-center w-full h-[316px] flex items-start justify-center text-white' style={{ backgroundImage: `url(${testimonial})` }}>
@@ -71,7 +71,7 @@ const Footer = () => {
         <p className='font-primary font-regular text-[16px] leading-[26px] text-paraColor mt-5 mb-8'>Subscribe to our newsletter and get many interesting things every week</p>
        </div>
         <div className='relative'>
-          <input type="text" className='w-[480px] border outline-0 bg-white rounded-[6px] placeholder:text-[#B4B6C4] font-secondary font-regular text-base leading-[26px] pl-6 py-5' placeholder='Your Email Address' />
+          <input type="text" className='w-[480px] outline-0 bg-white rounded-[6px] placeholder:text-[#B4B6C4] font-secondary font-regular text-base leading-[26px] pl-6 py-5' placeholder='Your Email Address' />
           <a className='absolute top-[19px] right-[60px] bg-secondary py-[6px] px-[10px] font-priamry font-medium text-lg rounded-[6px] text-[#FFFFFF]'>
             <FaPaperPlane />
           </a>
