@@ -9,7 +9,6 @@ import OurServices from "./components/OurServices/OurServices"
 import Platform from "./components/Platform/Platform"
 import Pricing from "./components/Pricing/Pricing"
 import Testimonial from "./components/Testimonial/Testimonial"
-import TestimonialSlider from "./components/Testimonial/TestimonialSlider"
 
 
 function App() {
