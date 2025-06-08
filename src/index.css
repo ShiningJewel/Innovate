@@ -12,3 +12,8 @@
   --color-titleColor: #2C2643;
   --color-paraColor: #645E76;
 }
+
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+  border-radius: 20px;
+}
