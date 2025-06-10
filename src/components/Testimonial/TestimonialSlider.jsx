@@ -8,11 +8,12 @@ import Slider from "react-slick";
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "red" }}
+    <div>
+      <div
+      className='w-[58px] h-[58px] bg-[#FAEAE8] rounded-full absolute top-[250px] left-[-4%]'
       onClick={onClick}
     />
+    </div>
   );
 }
 
@@ -20,8 +21,7 @@ function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={className}
-      style={{ ...style, display: "block", background: "green" }}
+      className='w-[58px] h-[58px] bg-[#FAEAE8] rounded-full absolute top-[250px] right-[-4%] z-[9999]'
       onClick={onClick}
     />
   );
@@ -34,8 +34,11 @@ const TestimonialSlider = () => {
    const settings = {
     dots: false,
     infinite: true,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrow: true,
+    autoplay: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />
   };
@@ -113,7 +116,6 @@ const TestimonialSlider = () => {
         </div>
       </Slider>
     </div>
-
   )
 }
 
