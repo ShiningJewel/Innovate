@@ -13,20 +13,20 @@ const Pricing = () => {
       <Container>
         <div>
           <div className=' flex  flex-col text-center justify-center'>
-            <h3 className='w-[624px] m-auto font-secondary font-bold text-[46px] leading-[58px] text-titleColor '>Pricing Designed To Fit Your Business</h3>
-            <p className='w-[97px] m-auto font-secondary text-secondary font-bold text-2xl mt-[39px]'>Monthly</p>
+            <h3 className='w-auto md:w-[624px] m-auto font-secondary font-bold text-[30px] md:text-[46px] md:leading-[58px] text-titleColor'>Pricing Designed To Fit Your Business</h3>
+            <p className='w-auto md:w-[97px] m-auto font-secondary text-secondary font-bold text-l md:text-2xl mt-[20px] md:mt-[39px]'>Monthly</p>
           </div>
-          <div className='mt-[80px] flex justify-between'>
+          <div className='ml-[20px] md-ml-0 mt-[40px] md:mt-[80px] md:flex md:justify-between'>
             <div>
-              <div className='py-[36px] w-[450px] rounded-[20px] shadow-[0px_0px_4px_rgba(0,0,0,0.25)] bg-white group hover:bg-secondary transition-all duration-500'>
+              <div className='mb-[20px] md:mb-0 py-[36px] w-[350px] md:py-[36px] md:w-[450px] rounded-[20px] shadow-[0px_0px_4px_rgba(0,0,0,0.25)] bg-secondary md:bg-white group md:hover:bg-secondary transition-all duration-500'>
                 <div className='m-auto relative flex justify-center  items-center w-[90px] h-[90px] rounded-full bg-[#FAEAE8] group-hover:text-white transition-all duration-500'>
                   {/* <img className='absolute w-[50px]' src={card1} alt="#card1" /> */}
 
 
                   <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_2153_158)">
-                      <path d="M19.7145 19.2682C22.3615 19.2682 24.6534 18.3188 26.5266 16.4456C28.3991 14.5727 29.3488 12.2812 29.3488 9.63377C29.3488 6.98729 28.3994 4.69543 26.5263 2.82195C24.6531 0.9494 22.3612 0 19.7145 0C17.0671 0 14.7755 0.9494 12.9026 2.82226C11.0298 4.69512 10.0801 6.98699 10.0801 9.63377C10.0801 12.2812 11.0298 14.573 12.9026 16.4459C14.7761 18.3184 17.068 19.2682 19.7145 19.2682ZM14.5604 4.47967C15.9974 3.0426 17.6832 2.34405 19.7145 2.34405C21.7454 2.34405 23.4315 3.0426 24.8689 4.47967C26.3059 5.91704 27.0048 7.60314 27.0048 9.63377C27.0048 11.665 26.3059 13.3508 24.8689 14.7882C23.4315 16.2256 21.7454 16.9241 19.7145 16.9241C17.6838 16.9241 15.998 16.2253 14.5604 14.7882C13.123 13.3511 12.4241 11.665 12.4241 9.63377C12.4241 7.60314 13.123 5.91704 14.5604 4.47967Z" fill="#2290F5" className='group-hover:fill-secondary transition-all duration-500' />
-                      <path d="M36.5725 30.7582C36.5185 29.9788 36.4092 29.1286 36.2484 28.2308C36.0861 27.3262 35.877 26.4711 35.6268 25.6896C35.368 24.8818 35.0167 24.084 34.5819 23.3196C34.1311 22.5261 33.6013 21.8352 33.0068 21.2667C32.3852 20.6719 31.6241 20.1937 30.744 19.8448C29.8669 19.4979 28.8949 19.3221 27.8552 19.3221C27.4469 19.3221 27.052 19.4896 26.2893 19.9861C25.82 20.2922 25.271 20.6462 24.6582 21.0378C24.1342 21.3716 23.4243 21.6844 22.5476 21.9676C21.6922 22.2444 20.8236 22.3848 19.9661 22.3848C19.1092 22.3848 18.2406 22.2444 17.3846 21.9676C16.5088 21.6847 15.7986 21.3719 15.2756 21.0381C14.6686 20.6502 14.1192 20.2962 13.6429 19.9858C12.8808 19.4893 12.4859 19.3218 12.0776 19.3218C11.0376 19.3218 10.0659 19.4979 9.18914 19.8452C8.30962 20.1934 7.54821 20.6716 6.92596 21.267C6.33148 21.8358 5.80169 22.5264 5.35125 23.3196C4.91699 24.084 4.56543 24.8815 4.30664 25.6899C4.0567 26.4714 3.84766 27.3262 3.6853 28.2308C3.52417 29.1274 3.41522 29.9779 3.36121 30.7591C3.30811 31.523 3.28125 32.318 3.28125 33.1212C3.28125 35.2092 3.94501 36.8996 5.2539 38.1462C6.54662 39.3764 8.25683 40.0001 10.3372 40.0001H29.5974C31.6772 40.0001 33.3874 39.3764 34.6804 38.1462C35.9896 36.9005 36.6534 35.2095 36.6534 33.1209C36.6531 32.3149 36.6259 31.5199 36.5725 30.7582ZM33.0642 36.4479C32.21 37.2609 31.076 37.6561 29.5971 37.6561H10.3372C8.85802 37.6561 7.72399 37.2609 6.87011 36.4482C6.0324 35.6508 5.6253 34.5622 5.6253 33.1212C5.6253 32.3717 5.65002 31.6316 5.69946 30.9212C5.74768 30.2242 5.84625 29.4585 5.99243 28.6449C6.13677 27.8414 6.32049 27.0873 6.539 26.4046C6.74865 25.75 7.0346 25.1018 7.38921 24.4774C7.72765 23.8823 8.11706 23.3718 8.54674 22.9604C8.94866 22.5756 9.45525 22.2606 10.0522 22.0244C10.6042 21.8059 11.2247 21.6863 11.8982 21.6683C11.9803 21.7119 12.1264 21.7952 12.3633 21.9496C12.8451 22.2637 13.4006 22.6219 14.0146 23.0141C14.7067 23.4554 15.5984 23.8539 16.6638 24.1979C17.753 24.55 18.8638 24.7289 19.9664 24.7289C21.069 24.7289 22.1801 24.55 23.2687 24.1982C24.335 23.8536 25.2264 23.4554 25.9195 23.0135C26.5478 22.6119 27.0877 22.264 27.5695 21.9496C27.8064 21.7955 27.9525 21.7119 28.0346 21.6683C28.7085 21.6863 29.3289 21.8059 29.8812 22.0244C30.4779 22.2606 30.9844 22.5759 31.3864 22.9604C31.816 23.3715 32.2055 23.882 32.5439 24.4777C32.8988 25.1018 33.1851 25.7503 33.3944 26.4043C33.6132 27.0879 33.7972 27.8417 33.9413 28.6446C34.0872 29.4597 34.186 30.2257 34.2343 30.9215V30.9221C34.284 31.6298 34.309 32.3695 34.3093 33.1212C34.309 34.5625 33.9019 35.6508 33.0642 36.4479Z" fill="#2290F5" className='group-hover:fill-secondary transition-all duration-500' />
+                      <path d="M19.7145 19.2682C22.3615 19.2682 24.6534 18.3188 26.5266 16.4456C28.3991 14.5727 29.3488 12.2812 29.3488 9.63377C29.3488 6.98729 28.3994 4.69543 26.5263 2.82195C24.6531 0.9494 22.3612 0 19.7145 0C17.0671 0 14.7755 0.9494 12.9026 2.82226C11.0298 4.69512 10.0801 6.98699 10.0801 9.63377C10.0801 12.2812 11.0298 14.573 12.9026 16.4459C14.7761 18.3184 17.068 19.2682 19.7145 19.2682ZM14.5604 4.47967C15.9974 3.0426 17.6832 2.34405 19.7145 2.34405C21.7454 2.34405 23.4315 3.0426 24.8689 4.47967C26.3059 5.91704 27.0048 7.60314 27.0048 9.63377C27.0048 11.665 26.3059 13.3508 24.8689 14.7882C23.4315 16.2256 21.7454 16.9241 19.7145 16.9241C17.6838 16.9241 15.998 16.2253 14.5604 14.7882C13.123 13.3511 12.4241 11.665 12.4241 9.63377C12.4241 7.60314 13.123 5.91704 14.5604 4.47967Z" fill="#2290F5" className='md:group-hover:fill-secondary transition-all duration-500' />
+                      <path d="M36.5725 30.7582C36.5185 29.9788 36.4092 29.1286 36.2484 28.2308C36.0861 27.3262 35.877 26.4711 35.6268 25.6896C35.368 24.8818 35.0167 24.084 34.5819 23.3196C34.1311 22.5261 33.6013 21.8352 33.0068 21.2667C32.3852 20.6719 31.6241 20.1937 30.744 19.8448C29.8669 19.4979 28.8949 19.3221 27.8552 19.3221C27.4469 19.3221 27.052 19.4896 26.2893 19.9861C25.82 20.2922 25.271 20.6462 24.6582 21.0378C24.1342 21.3716 23.4243 21.6844 22.5476 21.9676C21.6922 22.2444 20.8236 22.3848 19.9661 22.3848C19.1092 22.3848 18.2406 22.2444 17.3846 21.9676C16.5088 21.6847 15.7986 21.3719 15.2756 21.0381C14.6686 20.6502 14.1192 20.2962 13.6429 19.9858C12.8808 19.4893 12.4859 19.3218 12.0776 19.3218C11.0376 19.3218 10.0659 19.4979 9.18914 19.8452C8.30962 20.1934 7.54821 20.6716 6.92596 21.267C6.33148 21.8358 5.80169 22.5264 5.35125 23.3196C4.91699 24.084 4.56543 24.8815 4.30664 25.6899C4.0567 26.4714 3.84766 27.3262 3.6853 28.2308C3.52417 29.1274 3.41522 29.9779 3.36121 30.7591C3.30811 31.523 3.28125 32.318 3.28125 33.1212C3.28125 35.2092 3.94501 36.8996 5.2539 38.1462C6.54662 39.3764 8.25683 40.0001 10.3372 40.0001H29.5974C31.6772 40.0001 33.3874 39.3764 34.6804 38.1462C35.9896 36.9005 36.6534 35.2095 36.6534 33.1209C36.6531 32.3149 36.6259 31.5199 36.5725 30.7582ZM33.0642 36.4479C32.21 37.2609 31.076 37.6561 29.5971 37.6561H10.3372C8.85802 37.6561 7.72399 37.2609 6.87011 36.4482C6.0324 35.6508 5.6253 34.5622 5.6253 33.1212C5.6253 32.3717 5.65002 31.6316 5.69946 30.9212C5.74768 30.2242 5.84625 29.4585 5.99243 28.6449C6.13677 27.8414 6.32049 27.0873 6.539 26.4046C6.74865 25.75 7.0346 25.1018 7.38921 24.4774C7.72765 23.8823 8.11706 23.3718 8.54674 22.9604C8.94866 22.5756 9.45525 22.2606 10.0522 22.0244C10.6042 21.8059 11.2247 21.6863 11.8982 21.6683C11.9803 21.7119 12.1264 21.7952 12.3633 21.9496C12.8451 22.2637 13.4006 22.6219 14.0146 23.0141C14.7067 23.4554 15.5984 23.8539 16.6638 24.1979C17.753 24.55 18.8638 24.7289 19.9664 24.7289C21.069 24.7289 22.1801 24.55 23.2687 24.1982C24.335 23.8536 25.2264 23.4554 25.9195 23.0135C26.5478 22.6119 27.0877 22.264 27.5695 21.9496C27.8064 21.7955 27.9525 21.7119 28.0346 21.6683C28.7085 21.6863 29.3289 21.8059 29.8812 22.0244C30.4779 22.2606 30.9844 22.5759 31.3864 22.9604C31.816 23.3715 32.2055 23.882 32.5439 24.4777C32.8988 25.1018 33.1851 25.7503 33.3944 26.4043C33.6132 27.0879 33.7972 27.8417 33.9413 28.6446C34.0872 29.4597 34.186 30.2257 34.2343 30.9215V30.9221C34.284 31.6298 34.309 32.3695 34.3093 33.1212C34.309 34.5625 33.9019 35.6508 33.0642 36.4479Z" fill="#2290F5" className='md:group-hover:fill-secondary transition-all duration-500' />
                     </g>
                     <defs>
                       <clipPath id="clip0_2153_158">
@@ -40,45 +40,45 @@ const Pricing = () => {
                 <div className='justify-center '>
                   <div className='justify-center text-center items-center'>
                     <div className=' mt-[32px] text-center justify-center items-center'>
-                    <h3 className='w-[330px] font-secondary font-bold text-2xl text-secondary group-hover:text-primary transition-all duration-500 leading[36px] m-auto mt-[32px]'>Personal</h3>
-                    <h6 className='flex w-[299px] items-center ml-[100px] font-secondary text-titleColor group-hover:text-white transition-all duration-500 font-bold text-[44px] leading-[54x] mb-[14px]'>$10/mth <span className='ml-[4px]'><FaLongArrowAltRight /></span> </h6>
-                    <p className='w-[320px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[18px] m-auto mb-[40px]'>Annual pricing <span className='text-secondary group-hover:text-primary transition-all duration-500'>(save 20%)</span></p>
+                    <h3 className='w-[330px] font-secondary font-bold text-xl md:text-2xl text-primary md:text-secondary md:group-hover:text-primary transition-all duration-500 leading[36px] m-auto mt-[32px]'>Personal</h3>
+                    <h6 className='flex w-[299px] items-center md:ml-[100px] font-secondary text-white md:text-titleColor ml-[90px] md:group-hover:text-white transition-all duration-500 font-bold text-[34px] md:text-[44px] leading-[54x] mb-[14px]'>$10/mth <span className='ml-[4px]'><FaLongArrowAltRight /></span> </h6>
+                    <p className='w-[320px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[18px] m-auto mb-[40px]'>Annual pricing <span className='text-primary md:text-secondary md:group-hover:text-primary transition-all duration-500'>(save 20%)</span></p>
                   </div>
                   </div>
 
                   <div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-white md:bg-[#FAEAE8] text-secondary md:group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Calendar View</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Calendar View</div>
                     </div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-white md:bg-[#FAEAE8] text-secondary md:group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Custom Templates</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Custom Templates</div>
                     </div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-white md:bg-[#FAEAE8] text-secondary md:group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>list view</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>list view</div>
                     </div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-white md:bg-[#FAEAE8] text-secondary md:group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>board view</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>board view</div>
                     </div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-white md:bg-[#FAEAE8] text-secondary md:group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[40px]'>Assignees & Due Dates</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[40px]'>Assignees & Due Dates</div>
                     </div>
-                  <div className='mt-[40px] flex justify-center'>
-                    <button className=' bg-secondary py-[20px] px-[105px] font-priamry font-medium text-lg rounded-[6px] text-white group-hover:text-titleColor group-hover:bg-primary transition-all duration-500'>Purchase Now</button>
+                  <div className='mt-0 md:mt-[40px] flex justify-center'>
+                    <button className=' md:bg-secondary bg-primary py-[15px] md:py-[20px] px-[105px] font-priamry font-medium text-lg rounded-[6px] md:text-white md:group-hover:text-titleColor md:group-hover:bg-primary transition-all duration-500'>Purchase Now</button>
                   </div>
                   </div>
 
@@ -87,8 +87,8 @@ const Pricing = () => {
               </div>
             </div>
             <div>
-              <div className='py-[36px] w-[450px] rounded-[20px] shadow-[0px_0px_4px_rgba(0,0,0,0.25)] bg-white group hover:bg-secondary transition-all duration-500'>
-                <div className='m-auto relative flex justify-center  items-center w-[90px] h-[90px] rounded-full bg-[#FAEAE8] group-hover:text-white transition-all duration-500'>
+              <div className='mb-[20px] md:mb-0 py-[36px] w-[350px] md:py-[36px] md:w-[450px] rounded-[20px] shadow-[0px_0px_4px_rgba(0,0,0,0.25)] bg-secondary md:bg-white group md:hover:bg-secondary transition-all duration-500'>
+                <div className='m-auto relative flex justify-center  items-center w-[90px] h-[90px] rounded-full bg-[#FAEAE8] md:group-hover:text-white transition-all duration-500'>
                   {/* <img className='absolute w-[50px]' src={card1} alt="#card1" /> */}
 
 
@@ -114,45 +114,45 @@ const Pricing = () => {
                 <div className='justify-center '>
                   <div className='justify-center text-center items-center'>
                     <div className=' mt-[32px] text-center justify-center items-center'>
-                    <h3 className='w-[330px] font-secondary font-bold text-2xl text-secondary group-hover:text-primary transition-all duration-500 leading[36px] m-auto mt-[32px]'>Team</h3>
-                    <h6 className='flex w-[299px] items-center ml-[100px] font-secondary text-titleColor group-hover:text-white transition-all duration-500 font-bold text-[44px] leading-[54x] mb-[14px]'>$25/mth <span className='ml-[4px]'><FaLongArrowAltRight /></span> </h6>
-                    <p className='w-[320px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[18px] m-auto mb-[40px]'>Annual pricing <span className='text-secondary group-hover:text-primary transition-all duration-500'>(save 35%)</span></p>
+                    <h3 className='w-[330px] font-secondary font-bold text-xl md:text-2xl text-primary md:text-secondary md:group-hover:text-primary transition-all duration-500 leading[36px] m-auto mt-[32px]'>Team</h3>
+                    <h6 className='flex w-[299px] items-center ml-[90px] md:ml-[100px] font-secondary text-white md:text-titleColor md:group-hover:text-white transition-all duration-500 font-bold text-[34px] md:text-[44px] leading-[54x] mb-[14px]'>$25/mth <span className='ml-[4px]'><FaLongArrowAltRight /></span> </h6>
+                    <p className='w-[320px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[18px] m-auto mb-[40px]'>Annual pricing <span className='text-primary md:text-secondary md:group-hover:text-primary transition-all duration-500'>(save 35%)</span></p>
                   </div>
                   </div>
 
                   <div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary md:group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Timeline Review</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Timeline Review</div>
                     </div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Custom fields</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Custom fields</div>
                     </div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Custom Templates</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Custom Templates</div>
                     </div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Task dependencies</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Task dependencies</div>
                     </div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[40px]'>Milestones Manage</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[40px]'>Milestones Manage</div>
                     </div>
-                  <div className='mt-[40px] flex justify-center'>
-                    <button className=' bg-secondary py-[20px] px-[105px] font-priamry font-medium text-lg rounded-[6px] text-white group-hover:text-titleColor group-hover:bg-primary transition-all duration-500'>Purchase Now</button>
+                  <div className='mt-0 md:mt-[40px] flex justify-center'>
+                    <button className=' md:bg-secondary bg-primary py-[15px] md:py-[20px] px-[105px] font-priamry font-medium text-lg rounded-[6px] md:text-white md:group-hover:text-titleColor md:group-hover:bg-primary transition-all duration-500'>Purchase Now</button>
                   </div>
                   </div>
 
@@ -161,7 +161,7 @@ const Pricing = () => {
               </div>
             </div>
             <div>
-              <div className='py-[36px] w-[450px] rounded-[20px] shadow-[0px_0px_4px_rgba(0,0,0,0.25)] bg-white group hover:bg-secondary transition-all duration-500'>
+              <div className='py-[36px] w-[350px] md:py-[36px] md:w-[450px] rounded-[20px] shadow-[0px_0px_4px_rgba(0,0,0,0.25)] bg-secondary md:bg-white group md:hover:bg-secondary transition-all duration-500'>
                 <div className='m-auto relative flex justify-center  items-center w-[90px] h-[90px] rounded-full bg-[#FAEAE8] group-hover:text-white transition-all duration-500'>
                   {/* <img className='absolute w-[50px]' src={card1} alt="#card1" /> */}
 
@@ -198,45 +198,45 @@ const Pricing = () => {
                 <div className='justify-center '>
                   <div className='justify-center text-center items-center'>
                     <div className=' mt-[32px] text-center justify-center items-center'>
-                    <h3 className='w-[330px] font-secondary font-bold text-2xl text-secondary group-hover:text-primary transition-all duration-500 leading[36px] m-auto mt-[32px]'>Enterprise</h3>
-                    <h6 className='flex w-[299px] items-center ml-[100px] font-secondary text-titleColor group-hover:text-white transition-all duration-500 font-bold text-[44px] leading-[54x] mb-[14px]'>$50/mth <span className='ml-[4px]'><FaLongArrowAltRight /></span> </h6>
-                    <p className='w-[320px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[18px] m-auto mb-[40px]'>Annual pricing <span className='text-secondary group-hover:text-primary transition-all duration-500'>(save 40%)</span></p>
+                    <h3 className='w-[330px] font-secondary font-bold text-xl md:text-2xl text-primary md:text-secondary md:group-hover:text-primary transition-all duration-500 leading[36px] m-auto mt-[32px]'>Enterprise</h3>
+                    <h6 className='flex w-[299px] items-center ml-[90px] md:ml-[100px] font-secondary text-white md:text-titleColor md:group-hover:text-white transition-all duration-500 font-bold text-[34px] md:text-[44px] leading-[54x] mb-[14px]'>$50/mth <span className='ml-[4px]'><FaLongArrowAltRight /></span> </h6>
+                    <p className='w-[320px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[18px] m-auto mb-[40px]'>Annual pricing <span className='text-primary md:text-secondary md:group-hover:text-primary transition-all duration-500'>(save 40%)</span></p>
                   </div>
                   </div>
 
                   <div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Data export & deletion</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Data export & deletion</div>
                     </div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Block native integrations</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Block native integrations</div>
                     </div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Custom branding</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Custom branding</div>
                     </div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Lock custom fields</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[26px]'>Lock custom fields</div>
                     </div>
                     <div className='flex'>
-                      <div className='ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
+                      <div className='ml-[20px] md:ml-[60px] relative flex justify-center items-center w-[24px] h-[24px] rounded-full bg-[#FAEAE8] text-secondary group-hover:bg-white  transition-all duration-500'>
                         <GiCheckMark />
                       </div>
-                      <div className='ml-[22px] w-[269px] font-primary text-paraColor group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[40px]'>Priority support</div>
+                      <div className='ml-[22px] w-[269px] font-primary text-white md:text-paraColor md:group-hover:text-white transition-all duration-500 font-medium text-lg leading-[32px] mb-[40px]'>Priority support</div>
                     </div>
-                  <div className='mt-[40px] flex justify-center'>
-                    <button className=' bg-secondary py-[20px] px-[105px] font-priamry font-medium text-lg rounded-[6px] text-white group-hover:text-titleColor group-hover:bg-primary transition-all duration-500'>Purchase Now</button>
+                  <div className='mt-0 md:mt-[40px] flex justify-center'>
+                    <button className=' md:bg-secondary bg-primary py-[15px] md:py-[20px] px-[105px] font-priamry font-medium text-lg rounded-[6px] md:text-white md:group-hover:text-titleColor md:group-hover:bg-primary transition-all duration-500'>Purchase Now</button>
                   </div>
                   </div>
 

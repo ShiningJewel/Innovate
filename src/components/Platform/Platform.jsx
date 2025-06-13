@@ -24,19 +24,19 @@ const Platform = () => {
   ]
   
   return (
-    <div className='pt-[439px] pb-[160px]'>
+    <div className='pt-[100px] md:pt-[439px] pb-[160px]'>
       <Container>
         <div className='px-[60px]'>
-        <div className='flex justify-between'>
-          <h3 className='w-[504px] font-secnodary text-titleColor font-bold text-[46px] leading-[58px]'>How simple is it to use our platform?</h3>
-          <p className='w-[530px] font-primary text-paraColor font-regular text-lg leading-[32px]'>This Innovate Con guide explores the most popular platforms and walks you through how to use them to grow your business.</p>
+        <div className='md:flex md:justify-between md:items-center'>
+          <h3 className='w-[504px] ml-[-35px] font-secnodary text-titleColor font-bold text-[20px] md:text-[46px] md:leading-[58px]'>How simple is it to use our platform?</h3>
+          <p className='w-[350px] md:w-[530px] mt-3 md:mt-0 ml-[-35px] font-primary text-paraColor font-regular text-[16px] md:text-lg md:leading-[32px]'>This Innovate Con guide explores the most popular platforms and walks you through how to use them to grow your business.</p>
         </div>
-        <div className='flex justify-between'>
+        <div className='mt-[-30px] md:mt-0 md:flex md:justify-between items-center'>
 
         {
           platformData.map((item)=>(
-            <div className='w-[300px] flex flex-col text-center pt-[116px]'>
-              <img className='w-[110px] m-auto' src={item.img} alt="#platformicon1" />
+            <div className='w-[300px] ml-[-15px] md:ml-0 flex flex-col text-center pt-[100px]  md:pt-[116px]'>
+              <img className='w-[110px] m-auto md:not-odd:m-auto' src={item.img} alt="#platformicon1" />
               <h3  className='w-[300px] font-secondary font-bold text-2xl text-titleColor leading-9 pt-[26px] pb-3'>{item.title}</h3>
             <p className='w-[300px] font-primary text-paraColor font-regular text-lg leading-[32px]'>{item.description} </p>
             </div>
