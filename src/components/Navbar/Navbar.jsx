@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import logo from '../../assets/logo.png'
 import Container from '../Layout/Container'
 import { FaBars } from "react-icons/fa";
@@ -8,14 +8,29 @@ import { RxCross2 } from "react-icons/rx";
 const Navbar = () => {
 
 const [show, setShow] = useState(false);
+const [navScroll, setNavScroll] = useState (false)
 const handleClick = () =>{
   setShow(true)
 }
 
+useEffect(()=>{
+
+  function scrollFunction(){
+    if(scrollY > 200){
+      setNavScroll(true)
+    }else{
+      setNavScroll(false)
+    }
+  }
+
+
+  window.addEventListener("scroll",scrollFunction)
+
+},[])
 
 
   return (
-    <div className='absolute top-0 left-0 w-full py-[20px] md:py-10 px-5 md:px-0 '>
+    <div className={` ${navScroll ? "md:fixed bg-secondary pb-10" : "absolute"}  top-0 left-0 w-full py-[20px] md:py-10 px-5 md:px-0 z-[9999]` }>
       <Container>
                 <div className='md:flex justify-between items-center'>
         <div className='flex items-center  justify-between'>
@@ -36,7 +51,7 @@ const handleClick = () =>{
         <div className='hidden md:flex items-center gap-x-[37px]'>
           <p className='font-priamry font-medium text-lg text-white '>Login</p>
          <div>
-           <button className=' bg-primary py-[17px] px-12 font-priamry font-medium text-lg rounded-[6px] text-secondary'>Register</button>
+           <button href="https://github.com/ShiningJewel/innovate.git" className=' bg-primary py-[17px] px-12 font-priamry font-medium text-lg rounded-[6px] text-secondary'>Register</button>
          </div>
         </div>
         </div>
